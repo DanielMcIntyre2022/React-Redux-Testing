@@ -9,7 +9,7 @@ function App() {
   }
 
   const decrement = () => {
-
+    dispatch({ type: 'decrement'})
   }
   return (
     <div>
